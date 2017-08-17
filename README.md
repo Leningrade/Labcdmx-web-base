@@ -5,16 +5,16 @@ El paquete usa Gulp, Pug, Sass, y yarn para el manejo de los recursos.
 
 ## Instalación
 
-Se necesita Node y YARN para puder installarse. Gulp para el manejo de los commandos en 
+Se necesita Node y YARN para puder installarse. El siguiente comando instala todas las dependencias (una vez dentrod del repositorio) y lo inicializa.
 
 ```shell
-$ brew install yarn && yarn global add gulp-cli
+brew install yarn && yarn install
 ```
 
-El siguiente comando instala todas las dependencias (una vez dentrod del repositorio) y lo inicializa.
+Gulp para correr los comandos desde terminal.
 
 ```shell
-$ yarn install
+$ yarn global add gulp-cli
 ```
 
 El comando default de gulp corre procesos de procesamiento de archivos .pug en /src y .sass en /src/sass
